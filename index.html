@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Adopta un Gatito</title>
+ 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <!-- ENCABEZADO -->
+    <header class="encabezado">
+
+        <!-- Espacio para el logo -->
+        <div class="logo">
+            <img src="./img/logogato.ico" alt="Logo de la tienda">
+        </div>
+
+        <div class="texto animate_animated animate__heartBeat"> Adopta un gatito  </div>
+
+        <!-- Barra de navegación -->
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#gatos">Gatos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+    </header>
+
+
+    <!-- SECCIÓN PRINCIPAL -->
+    <main id="inicio">
+
+        <section class="bienvenida">
+
+            <h2>Encuentra a tu nuevo mejor amigo</h2>
+
+            <p>
+                Dale una segunda oportunidad a un gato.
+                ¡Ellos están esperando por ti!
+            </p>
+
+        </section>
+
+
+        <!-- BARRA DE BÚSQUEDA -->
+        <section class="busqueda">
+
+            <input
+                type="text"
+                id="buscador"
+                placeholder="Busca un gato por su nombre..."
+            >
+
+        </section>
+
+
+        <!-- TARJETAS DE GATOS -->
+        <section id="gatos" class="contenedor-gatos">
+
+            <!-- TARJETA 1 -->
+            <div class="card" data-nombre="michi" data-caracteristicas="cariñoso jugueton">
+
+                <div class="imagen-gato">
+                    <img src="./img/gatocard3jpg.jpg" alt="Fotografía de Michi">
+                </div>
+
+                <div class="informacion">
+
+                    <h3>Michi</h3>
+
+                    <p>Edad: 2 años</p>
+
+                    <p>Personalidad: Cariñoso y juguetón.</p>
+
+                    <button>Adoptar</button>
+
+                </div>
+
+            </div>
+
+
+            <!-- TARJETA 2 -->
+            <div class="card" data-nombre="luna" data-caracteristicas="tranquila amorosa">
+
+                <div class="imagen-gato">
+                    <img src="./img/gatocard2.jpg" alt="Fotografía de Luna">
+                </div>
+
+                <div class="informacion">
+
+                    <h3>Luna</h3>
+
+                    <p>Edad: 1 año</p>
+
+                    <p>Personalidad: Tranquila y amorosa.</p>
+
+                    <button>Adoptar</button>
+
+                </div>
+
+            </div>
+
+
+            <!-- TARJETA 3 -->
+            <div class="card" data-nombre="simba" data-caracteristicas="activo curioso">
+
+                <div class="imagen-gato">
+                    <img src="./img/gatocard1.jpg" alt="Fotografía de Simba">
+                </div>
+
+                <div class="informacion">
+
+                    <h3>Simba</h3>
+
+                    <p>Edad: 3 años</p>
+
+                    <p>Personalidad: Activo y curioso.</p>
+
+                    <button>Adoptar</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Mensaje para búsquedas sin resultados -->
+        <p id="mensaje" class="mensaje">
+            No se encontraron gatos.
+        </p>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer id="contacto">
+
+        <div class="footer-logo">
+
+            <!-- Espacio para el logo del footer -->
+            <img src="./img/logogato.ico" alt="Logo de la tienda">
+
+        </div>
+
+        <h3>Adopta un Gatito 🐾</h3>
+
+        <p>
+            Todos los gatos merecen un hogar lleno de amor.
+        </p>
+
+        <p>Contacto: adopciongatos@gmail.com</p>
+
+        <p>&copy; 2026 Adopta un Gatito. Todos los derechos reservados.</p>
+
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
